@@ -17,5 +17,10 @@ jobs:
         run: pwd
       - name: "test printing"
         run: echo mohamed
-      - name: "list the files"
+      - name: "before list the files"
+        run: ls
+
+      - uses: actions/checkout@v3
+      
+      - name: "after list the files"
         run: ls
