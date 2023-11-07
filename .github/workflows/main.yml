@@ -15,4 +15,5 @@ jobs:
     steps:
       - name: "test files path"
         run: pwd
-
+      - name: "test printing"
+        run: echo mohamed
