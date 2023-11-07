@@ -13,14 +13,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "test files path"
-        run: pwd
-      - name: "test printing"
-        run: echo mohamed
-      - name: "before list the files"
-        run: ls
 
       - uses: actions/checkout@v3
 
-      - name: "after list the files"
-        run: ls -a
+      - name: "docker hub login"
+        run: docker login --username nadaadel19 --password dckr_pat_ulU1P79Gh6lo3c1qkaxhg4OhQyo
+
+   
