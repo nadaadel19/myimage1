@@ -21,6 +21,6 @@ jobs:
         run: ls
 
       - uses: actions/checkout@v3
-      
+
       - name: "after list the files"
-        run: ls
+        run: ls -a
